@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">管理后台UI测试</th></tr>
+<tr><td><a href="#t0">suite测试</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">20,694</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">管理后台UI测试</th></tr></tbody><tbody id="t0"><tr><th colspan="4">suite测试 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.job.ui.contentmanager.CreateNormalArticles</td><td><a href="#m0">setup</a></td><td rowspan="1">1537165189914</td><td rowspan="1">10317</td></tr><tr class="failedodd"><td rowspan="1">com.job.ui.contentmanager.IsVisible</td><td><a href="#m1">setup</a></td><td rowspan="1">1537165200265</td><td rowspan="1">10326</td></tr><tr><th colspan="4">suite测试 &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.job.ui.contentmanager.CreateNormalArticles</td><td><a href="#m2">setdown</a></td><td rowspan="1">1537165200263</td><td rowspan="1">0</td></tr><tr><th colspan="4">suite测试 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.job.ui.contentmanager.CreateNormalArticles</td><td><a href="#m3">TestArtical1</a></td><td rowspan="1">1537165200261</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.job.ui.contentmanager.IsVisible</td><td><a href="#m4">test01</a></td><td rowspan="1">1537165210593</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>suite测试</h2><h3 id="m0">com.job.ui.contentmanager.CreateNormalArticles#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: m-aside--page__link (tried for 10 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.job.ui.util.Page.open(Page.java:14)
+	at com.job.ui.contentmanager.CreateNormalArticles.setup(CreateNormalArticles.java:29)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.className: m-aside--page__link
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;wangmengleideMacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:cf9:e241:dc48:2fef%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.3&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 28 more
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.job.ui.contentmanager.IsVisible#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: m-aside--page__link (tried for 10 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.job.ui.util.Page.open(Page.java:14)
+	at com.job.ui.contentmanager.IsVisible.setup(IsVisible.java:27)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.className: m-aside--page__link
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;wangmengleideMacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:cf9:e241:dc48:2fef%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.3&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 28 more
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.job.ui.contentmanager.CreateNormalArticles#setdown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.job.ui.contentmanager.CreateNormalArticles#TestArtical1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: m-aside--page__link (tried for 10 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.job.ui.util.Page.open(Page.java:14)
+	at com.job.ui.contentmanager.CreateNormalArticles.setup(CreateNormalArticles.java:29)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.className: m-aside--page__link
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;wangmengleideMacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:cf9:e241:dc48:2fef%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.3&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 28 more
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.job.ui.contentmanager.IsVisible#test01</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: m-aside--page__link (tried for 10 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.job.ui.util.Page.open(Page.java:14)
+	at com.job.ui.contentmanager.IsVisible.setup(IsVisible.java:27)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.className: m-aside--page__link
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;wangmengleideMacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:cf9:e241:dc48:2fef%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.3&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 28 more
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="管理后台UI测试">
+	
+	<test name="suite测试">
+		<classes>
+			<class name="com.job.ui.util.SuiteConfig"/> 
+			<class name="com.job.ui.contentmanager.CreateNormalArticles"/>
+			<class name="com.job.ui.contentmanager.IsVisible"/>
+			
+			<!-- <class name="just.test.testGetDriver"/>
+			<class name="just.test.testGetDriver2"/> -->
+
+		</classes>
+	</test>
+	
+</suite>
