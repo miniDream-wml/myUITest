@@ -8,7 +8,7 @@
 			<class name="just.test.test1"/>
 			<class name="just.test.test2"/>
 			<class name="just.test.test3"/>
-			<class name="just.test.test4"/>
+			<!-- <class name="just.test.test4"/> -->
 
 		</classes>
 	</test>
