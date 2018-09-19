@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [管理后台UI测试]">
-  <test thread-count="5" name="suite测试(failed)">
+  <test thread-count="5" name="有坏的哦content测试(failed)">
     <classes>
-      <class name="com.job.ui.contentmanager.IsVisible">
+      <class name="com.job.ui.contentmanager.con3">
         <methods>
-          <include name="setup"/>
-          <include name="test01"/>
+          <include name="ys"/>
         </methods>
-      </class> <!-- com.job.ui.contentmanager.IsVisible -->
-      <class name="com.job.ui.contentmanager.CreateNormalArticles">
-        <methods>
-          <include name="setdown"/>
-          <include name="TestArtical1"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.job.ui.contentmanager.CreateNormalArticles -->
+      </class> <!-- com.job.ui.contentmanager.con3 -->
     </classes>
-  </test> <!-- suite测试(failed) -->
+  </test> <!-- 有坏的哦content测试(failed) -->
 </suite> <!-- Failed suite [管理后台UI测试] -->
