@@ -11,6 +11,7 @@ com/job/ui/util/SuiteConfig.class
 just/test/testwebdriverWait.class
 com/job/ui/util/PropertiesHandle.class
 just/test/test2.class
+com/job/ui/contentmanager/con3.class
 just/test/testWait.class
 com/job/ui/contentmanager/cont1.class
 just/test/testwebdriverWait$2.class
