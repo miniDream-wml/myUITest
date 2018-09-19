@@ -2,14 +2,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="管理后台UI测试">
 	
-	<test name="suite测试">
+	<test name="justtest测试">
 		<classes>
-			<class name="com.job.ui.util.SuiteConfig"/> 
-			<class name="com.job.ui.contentmanager.CreateNormalArticles"/>
-			<class name="com.job.ui.contentmanager.IsVisible"/>
-			
-			<!-- <class name="just.test.testGetDriver"/>
-			<class name="just.test.testGetDriver2"/> -->
+			<class name="just.test.testdriver"/>
+			<class name="just.test.test1"/>
+			<class name="just.test.test2"/>
+			<class name="just.test.test3"/>
+			<class name="just.test.test4"/>
+
+		</classes>
+	</test>
+	
+	<test name="content测试">
+		<classes>
+			<class name="com.job.ui.contentmanager.cont1"/>
+			<class name="com.job.ui.contentmanager.cont2"/>
 
 		</classes>
 	</test>

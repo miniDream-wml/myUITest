@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="管理后台UI测试" duration-ms="16488" started-at="2018-09-19T13:08:29Z" finished-at="2018-09-19T13:08:46Z">
+    <groups>
+    </groups>
+    <test name="justtest测试" duration-ms="16472" started-at="2018-09-19T13:08:29Z" finished-at="2018-09-19T13:08:46Z">
+      <class name="just.test.testdriver">
+        <test-method status="PASS" signature="td()[pri:0, instance:just.test.testdriver@2752f6e2]" name="td" duration-ms="16437" started-at="2018-09-19T13:08:29Z" finished-at="2018-09-19T13:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- td -->
+      </class> <!-- just.test.testdriver -->
+      <class name="just.test.test4">
+        <test-method status="PASS" signature="td()[pri:0, instance:just.test.test4@1d251891]" name="td" duration-ms="0" started-at="2018-09-19T13:08:46Z" finished-at="2018-09-19T13:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- td -->
+      </class> <!-- just.test.test4 -->
+      <class name="just.test.test1">
+        <test-method status="PASS" signature="td()[pri:0, instance:just.test.test1@7c75222b]" name="td" duration-ms="0" started-at="2018-09-19T13:08:46Z" finished-at="2018-09-19T13:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- td -->
+      </class> <!-- just.test.test1 -->
+      <class name="just.test.test2">
+        <test-method status="PASS" signature="td()[pri:0, instance:just.test.test2@4c203ea1]" name="td" duration-ms="0" started-at="2018-09-19T13:08:46Z" finished-at="2018-09-19T13:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- td -->
+      </class> <!-- just.test.test2 -->
+      <class name="just.test.test3">
+        <test-method status="PASS" signature="td()[pri:0, instance:just.test.test3@27f674d]" name="td" duration-ms="0" started-at="2018-09-19T13:08:46Z" finished-at="2018-09-19T13:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- td -->
+      </class> <!-- just.test.test3 -->
+    </test> <!-- justtest测试 -->
+    <test name="content测试" duration-ms="1" started-at="2018-09-19T13:08:46Z" finished-at="2018-09-19T13:08:46Z">
+      <class name="com.job.ui.contentmanager.cont1">
+        <test-method status="PASS" signature="TestArtical1()[pri:0, instance:com.job.ui.contentmanager.cont1@96532d6]" name="TestArtical1" duration-ms="0" started-at="2018-09-19T13:08:46Z" finished-at="2018-09-19T13:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestArtical1 -->
+      </class> <!-- com.job.ui.contentmanager.cont1 -->
+      <class name="com.job.ui.contentmanager.cont2">
+        <test-method status="PASS" signature="TestArtical1()[pri:0, instance:com.job.ui.contentmanager.cont2@3796751b]" name="TestArtical1" duration-ms="0" started-at="2018-09-19T13:08:46Z" finished-at="2018-09-19T13:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestArtical1 -->
+      </class> <!-- com.job.ui.contentmanager.cont2 -->
+    </test> <!-- content测试 -->
+  </suite> <!-- 管理后台UI测试 -->
+</testng-results>
