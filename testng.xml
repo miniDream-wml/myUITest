@@ -17,7 +17,7 @@
 		<classes>
 			<class name="com.job.ui.contentmanager.cont1"/>
 			<class name="com.job.ui.contentmanager.cont2"/>
-
+			<class name="com.job.ui.contentmanager.IsVisible"/>
 		</classes>
 	</test>
 	
