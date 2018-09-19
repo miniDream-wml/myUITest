@@ -13,7 +13,7 @@
 		</classes>
 	</test>
 	
-	<test name="有坏的哦content测试">
+	<test name="content测试">
 		<classes>
 			<class name="com.job.ui.contentmanager.cont1"/>
 			<class name="com.job.ui.contentmanager.cont2"/>
